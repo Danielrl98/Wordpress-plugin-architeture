@@ -22,7 +22,8 @@ terser
 
 responsável por testar arquivos
 
-comando: $ vendor/bin/phpunit nameFile.Test.php
+comando: $ vendor/bin/phpunit tests/nameFile.Test.php
+example: $ vendor/bin/phpunit tests/Basic.Test.php
 
 ### typescript
 
