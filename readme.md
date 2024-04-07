@@ -4,13 +4,18 @@ Arquitetura para criação de plugins wordpress
 
 # instalação
 
+instalação em modo desenvolvimento: 
+
 composer install
+
 npm install
 
 # bibliotecas
 
 phpunit
+
 typescript
+
 terser
 
 ### phpunit
