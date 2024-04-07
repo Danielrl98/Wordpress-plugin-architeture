@@ -7,7 +7,7 @@ include './tests/BasicClass.php';
 
 use BasicClass\Get_status;
 
-// execute: vendor/bin/phpunit test/Basic.Test.php
+// execute: vendor/bin/phpunit tests/Basic.Test.php
 
 class Basic extends TestCase
 {
