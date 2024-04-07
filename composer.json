@@ -1,0 +1,15 @@
+{
+    "name": "daniel/base_plugin_php",
+    "autoload": {
+        "psr-4": {
+            "Daniel\\BasePluginPhp\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "dandorock",
+            "email": "daniel-rl-98@hotmail.com"
+        }
+    ],
+    "require": {}
+}
