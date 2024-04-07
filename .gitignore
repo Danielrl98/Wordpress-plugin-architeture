@@ -1,3 +1,9 @@
 vendor
 node_modules
+
+teste.scss
 teste.js
+
+*.ts
+*.sass
+*.scss

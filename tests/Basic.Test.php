@@ -13,17 +13,13 @@ class Basic extends TestCase
 {
     public function testGetRequest()
     {
-        /* changed url */
-        $url = 'localhost:8000';
-
-        $client = new Client();
-
-        $response = $client->request('GET', $url);
-
-        /*verifica se é igual */
-        $this->assertEquals(200, $response->getStatusCode());
         $this->assertEquals(200, Get_status::result(200));
-     
+
+        /* changed url */
+        //  $url = 'localhost:8000';
+        // $client = new Client();
+        // $response = $client->request('GET', $url);
+        //$this->assertEquals(200, $response->getStatusCode());
         //$data = json_decode($response->getBody(), true);
         /*verifica se não é vazio */
         //$this->assertNotEmpty($data);

@@ -18,6 +18,8 @@ typescript
 
 terser
 
+sass/scss
+
 ### phpunit
 
 responsável por testar arquivos
@@ -37,5 +39,10 @@ minificar código javascript para tornar a aplicação mais rápida e segura
 
 comando: $ tsc terser nameFile.js -o newNameFile.min.js --mangle
 
+### sass/scss
+
+minificar código sass/scss para tornar a aplicação mais rápida
+
+comando: sass --style=compressed fileName.scss newFileName.min.css
 
 
